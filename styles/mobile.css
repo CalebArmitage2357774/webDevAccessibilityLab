@@ -26,6 +26,11 @@ header h1 {
   margin: 0;
 }
 
+header h1 a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
 nav ul {
   list-style: none;
   padding-left: 0;
@@ -66,9 +71,18 @@ input[type="email"] {
 }
 
 footer {
-  border-top: 1px solid #ccc;
-  margin: 20px 10px 10px 0;
+  background-color: #263248;
+  color: #ffffff;
+  padding: 10px;
+  margin: 20px 0 0 0;
   font-size: 0.8em;
   text-align: center;
   font-style: italic;
+}
+
+/* Form Styles */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
